@@ -24,11 +24,17 @@ This project solves that by creating a **predictive model** that estimates a stu
 academic-score-forecaster/
 │
 ├── academic_score_forecaster.py # Main ML pipeline
+
 ├── student_performance.csv # Dataset (100 student records)
+
 ├── eda_plots.png # Generated EDA visualizations
+
 ├── model_comparison.png # Model benchmarking chart
+
 ├── actual_vs_predicted.png # Best model prediction plot
+
 ├── feature_importance.png # Feature importance chart
+
 └── README.md # This file
 
 
