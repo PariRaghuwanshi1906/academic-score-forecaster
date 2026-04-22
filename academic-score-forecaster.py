@@ -22,7 +22,7 @@ warnings.filterwarnings("ignore")
 def load_data(filepath="student_performance.csv"):
     df = pd.read_csv(filepath)
     print("=" * 55)
-    print("       STUDENT PERFORMANCE PREDICTOR")
+    print("       ACADEMIC SCORE FORECASTER")
     print("=" * 55)
     print(f"\n📂 Dataset Shape : {df.shape[0]} rows × {df.shape[1]} columns")
     print(f"\n📊 Column Info:")
@@ -43,7 +43,7 @@ def perform_eda(df):
     print("=" * 55)
 
     fig, axes = plt.subplots(2, 3, figsize=(16, 10))
-    fig.suptitle("Student Performance – EDA Dashboard", fontsize=16, fontweight="bold")
+    fig.suptitle("Academic Performance – EDA Dashboard", fontsize=16, fontweight="bold")
 
     # Distribution of exam scores
     axes[0, 0].hist(df["exam_score"], bins=20, color="#4C72B0", edgecolor="white")
@@ -263,7 +263,7 @@ def predict_new_student(model):
 # ─────────────────────────────────────────────
 
 if __name__ == "__main__":
-    df                                        = load_data("student_performance.csv")
+    df                                        = load_data("student-performance.csv")
     perform_eda(df)
     X_train, X_test, y_train, y_test, X_s, y = preprocess(df)
     results                                   = train_and_evaluate(X_train, X_test, y_train, y_test)
