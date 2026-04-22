@@ -31,6 +31,8 @@ academic-score-forecaster/
 
 ├── eda_plots.png # Generated EDA visualizations
 
+├──project_report.docx # project report document
+
 ├── requirements.txt # Dependencies and requirements
 
 └── README.md # This file
