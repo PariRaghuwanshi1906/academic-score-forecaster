@@ -173,7 +173,10 @@ Python 3.8+ recommended. Using a virtual environment is advised.
 3. Run the Project
 python academic_score_forecaster.py
 
-📈 Sample Output (Console)
+---
+
+
+## 📈 Sample Output (Console)
 
 ======================================================
        ACADEMIC SCORE FORECASTER
@@ -200,7 +203,10 @@ actual_vs_predicted.png — best model accuracy
 
 feature_importance.png — top contributing features
 
-🔍 Key Findings
+---
+
+
+## 🔍 Key Findings
 Study hours and previous score are the strongest predictors of exam performance.
 
 Attendance percentage is highly correlated with final score.
@@ -208,8 +214,10 @@ Attendance percentage is highly correlated with final score.
 Students with postgraduate parents score consistently higher on average.
 
 Random Forest outperforms other models with R² > 0.99 on this dataset.
+---
 
-🚀 How to Predict for a New Student
+
+## 🚀 How to Predict for a New Student
 Edit the predict_new_student() function in the script:
 
 new_student = pd.DataFrame([{
@@ -226,7 +234,9 @@ new_student = pd.DataFrame([{
 
 Run the script again or call the predict_new_student() function.
 
-🔮 Future Enhancements
+---
+
+##🔮 Future Enhancements
 Hyperparameter tuning using GridSearchCV for higher accuracy.
 
 Cross‑validation (k‑fold) to reduce overfitting.
@@ -239,7 +249,10 @@ Explainable AI (SHAP/LIME) to interpret individual predictions.
 
 Classification alternative (pass/fail or grade brackets).
 
-✨ Key Highlights
+---
+
+
+## ✨ Key Highlights
 Clean and structured ML pipeline.
 
 Comparison of four regression models.
