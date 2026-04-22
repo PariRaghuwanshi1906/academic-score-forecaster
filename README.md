@@ -21,7 +21,9 @@ This project solves that by creating a **predictive model** that estimates a stu
 ---
 
 ## 📁 Project Structure
+
 academic-score-forecaster/
+
 │
 ├── academic_score_forecaster.py # Main ML pipeline
 
@@ -155,7 +157,7 @@ More sample scenarios (illustrative):
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/academic-score-forecaster.git
+git clone https://github.com/PariRaghuwanshi1906/academic-score-forecaster/
 cd academic-score-forecaster
 
 2. Install Dependencies (Required Packages)
@@ -272,4 +274,4 @@ Automatic generation of publication‑ready plots.
 Easy to extend and modify.
 
 👤 Author
-Suhani Singh Parihar
+**Suhani Singh Parihar**
